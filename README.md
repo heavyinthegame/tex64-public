@@ -1,4 +1,4 @@
-# TeX64
+# TeX64: LaTeX Editor for macOS
 
 TeX64 is a LaTeX editor for macOS with live PDF preview, structured math editing, equation editing, formula import, and reviewable changes for technical and academic writing.
 
@@ -12,7 +12,7 @@ This repository is the public showcase for the product. It contains product info
 
 ![LaTeX editor for macOS with live PDF preview](assets/screenshots/editor-preview.png)
 
-## What TeX64 focuses on
+## LaTeX Workflow Features
 
 - Editing LaTeX with a live PDF preview
 - Building math blocks without losing source control
