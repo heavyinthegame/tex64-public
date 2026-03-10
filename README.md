@@ -1,10 +1,16 @@
 # TeX64
 
-TeX64 is a LaTeX editor focused on turning ideas into math documents faster.
+TeX64 is a LaTeX editor for macOS with live PDF preview, structured math editing, equation editing, formula import, and reviewable changes for technical and academic writing.
+
+Built for math-heavy LaTeX and TeX workflows, TeX64 helps you edit TeX source, write equations, and move between source and PDF faster.
+
+日本語: TeX64 は、数式中心の文書作成に向けた macOS 向け LaTeX エディタです。ライブ PDF プレビュー、数式編集、式の取り込み、変更確認に対応しています。
+
+[Download](https://tex64.com/download) · [Docs](https://tex64.com/docs) · [FAQ](FAQ.md) · [Roadmap](ROADMAP.md) · [Support](https://tex64.com/support)
 
 This repository is the public showcase for the product. It contains product information, screenshots, a public roadmap, and a place to collect feedback. The core application code and internal implementation remain private.
 
-![TeX64 editor and PDF preview](assets/screenshots/editor-preview.png)
+![LaTeX editor for macOS with live PDF preview](assets/screenshots/editor-preview.png)
 
 ## What TeX64 focuses on
 
