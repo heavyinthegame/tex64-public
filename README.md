@@ -4,6 +4,39 @@ TeX64 is a LaTeX editor focused on turning ideas into math documents faster.
 
 This repository is the public showcase for the product. It contains product information, screenshots, a public roadmap, and a place to collect feedback. The core application code and internal implementation remain private.
 
+![TeX64 editor and PDF preview](assets/screenshots/editor-preview.png)
+
+## What TeX64 focuses on
+
+- Editing LaTeX with a live PDF preview
+- Building math blocks without losing source control
+- Pulling formulas from existing material into the workspace
+- Reviewing changes before applying them
+
+## Screenshots
+
+### Editor + preview
+
+![Editor and PDF preview](assets/screenshots/block-editor-heat-equation.png)
+
+### Structured math block editing
+
+![Block editor for aligned equations](assets/screenshots/block-editor-align.png)
+
+### Importing from existing material
+
+![Import target picker](assets/screenshots/import-target-picker.png)
+
+![Crop selection for formula import](assets/screenshots/crop-import-selection.png)
+
+### Reviewing generated changes
+
+![Change review diff](assets/screenshots/change-review-diff.png)
+
+### Project workspace
+
+![Workspace and insert panel](assets/screenshots/workspace-and-insert-panel.png)
+
 ## What is in this repo
 
 - Product overview
