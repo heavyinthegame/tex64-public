@@ -12,3 +12,8 @@ Current screenshot set:
 - `screenshots/crop-reference-formula.png`
 - `screenshots/change-review-diff.png`
 - `screenshots/workspace-and-insert-panel.png`
+
+Social preview assets:
+
+- `social-preview/icon-source.jpg`
+- `social-preview/github-social-preview.png`
