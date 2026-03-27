@@ -1,76 +1,72 @@
-# TeX64: LaTeX Editor for macOS
+<div align="center">
 
-TeX64 is a LaTeX editor for macOS with live PDF preview, structured math editing, equation editing, formula import, and reviewable changes for technical and academic writing.
+# TeX64
 
-Built for math-heavy LaTeX and TeX workflows, TeX64 helps you edit TeX source, write equations, and move between source and PDF faster.
+### A LaTeX editor for macOS — built for math-heavy writing.
+
+[Website](https://tex64.com) · [Download](https://tex64.com/download) · [Docs](https://tex64.com/docs) · [Roadmap](./ROADMAP.md) · [FAQ](./FAQ.md)
+
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Beta](https://img.shields.io/badge/status-beta-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-proprietary-lightgrey?style=flat-square)
+
+</div>
+
+---
+
+TeX64 is a native macOS LaTeX editor designed for technical and academic writing. It runs entirely on your Mac — no cloud, no account, no internet required. Compile with your local MacTeX / TeX Live installation and get a live PDF preview as you write.
 
 日本語: TeX64 は、数式中心の文書作成に向けた macOS 向け LaTeX エディタです。ライブ PDF プレビュー、数式編集、式の取り込み、変更確認に対応しています。
 
-[Download](https://tex64.com/download) · [Docs](https://tex64.com/docs) · [FAQ](FAQ.md) · [Roadmap](ROADMAP.md) · [Support](https://tex64.com/support)
+## Why TeX64?
 
-This repository is the public showcase for the product. It contains product information, screenshots, a public roadmap, and a place to collect feedback. The core application code and internal implementation remain private.
+**AI error fixing (Axiom)** — When compilation fails, Axiom reads the actual log output and tells you exactly what went wrong: _"Line 847: missing `\end{align}`"_ — with a one-click diff to fix it.
 
-![LaTeX editor for macOS with live PDF preview](assets/screenshots/editor-preview.png)
+**Equation OCR** — Snap a photo of equations on a whiteboard or in a textbook. Drag it into TeX64. Get editable LaTeX code in seconds. Works with handwriting and printed math.
 
-## LaTeX Workflow Features
+**Live PDF preview** — Click anywhere in the PDF to jump to the source. Click in the source to jump to the PDF. SyncTeX works out of the box.
 
-- Editing LaTeX with a live PDF preview
-- Building math blocks without losing source control
-- Pulling formulas from existing material into the workspace
-- Reviewing changes before applying them
+**Structured math editing** — Build equations visually with a clickable palette, then hand-edit the LaTeX it produces. No lock-in — it's standard LaTeX the whole way through.
+
+**Formula import** — Extract equations from existing documents directly into your workspace. Crop, select, and pull in formulas without retyping.
+
+**Reviewable changes** — See diffs before applying modifications. Review what changed and why before committing to edits.
 
 ## Screenshots
 
-### Editor + preview
+| Editor + Live Preview | Structured Math Editing |
+|:---:|:---:|
+| ![LaTeX editor for macOS with live PDF preview](assets/screenshots/editor-preview.png) | ![Block editor for aligned equations](assets/screenshots/block-editor.png) |
 
-![Editor and PDF preview](assets/screenshots/block-editor-heat-equation.png)
+| Formula Import | Change Review |
+|:---:|:---:|
+| ![Import target picker](assets/screenshots/import-picker.png) | ![Change review diff viewer](assets/screenshots/change-review.png) |
 
-### Structured math block editing
+## Getting Started
 
-![Block editor for aligned equations](assets/screenshots/block-editor-align.png)
+1. Install [MacTeX](https://www.tug.org/mactex/) or [TeX Live](https://www.tug.org/texlive/) if you haven't already
+2. Download TeX64 from [tex64.com/download](https://tex64.com/download)
+3. Open your project folder and hit compile — that's it
 
-### Importing from existing material
+No account. No sign-up. No internet needed.
 
-![Import target picker](assets/screenshots/import-target-picker.png)
+## About This Repository
 
-![Crop selection for formula import](assets/screenshots/crop-import-selection.png)
+This repository is the public showcase for TeX64. It contains product information, screenshots, a public roadmap, and a place to collect feedback. The core application code and internal implementation remain private.
 
-### Reviewing generated changes
+## Feedback & Issues
 
-![Change review diff](assets/screenshots/change-review-diff.png)
-
-### Project workspace
-
-![Workspace and insert panel](assets/screenshots/workspace-and-insert-panel.png)
-
-## What is in this repo
-
-- Product overview
-- Public roadmap
-- FAQ
-- Screenshots and assets
-- GitHub issues for feedback
-
-## What is not in this repo
-
-- Application source code
-- OCR internals
-- AI implementation details
-- Prompt design
-- Internal architecture and roadmap
+Found a rough edge? Have a feature request? [Open an issue](https://github.com/heavyinthegame/tex64/issues/new/choose) — we read every one.
 
 ## Links
 
-- Website: [tex64.com](https://tex64.com)
-- Download: [tex64.com/download](https://tex64.com/download)
-- Docs: [tex64.com/docs](https://tex64.com/docs)
-- Support: [tex64.com/support](https://tex64.com/support)
-- Contact: [tex64ai@gmail.com](mailto:tex64ai@gmail.com)
+- [tex64.com](https://tex64.com)
+- [Documentation](https://tex64.com/docs)
+- [Support](https://tex64.com/support)
+- [tex64ai@gmail.com](mailto:tex64ai@gmail.com)
 
-## Current status
+---
 
-TeX64 is currently available as a macOS beta.
-
-## Feedback
-
-If you want to report a rough edge, ask a product question, or request a feature, open an issue in this repository.
+<div align="center">
+<sub>Built for researchers, students, and anyone who writes math.</sub>
+</div>
